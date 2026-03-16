@@ -110,9 +110,8 @@ By comparing the data in these tables, users can validate the experimental resul
 
 > Please replace the image path below with the actual path in your repository.
 
-```markdown
 ![Script Execution Flow](docs/images/flow.png)
-```
+
 
 ## File Structure
 
@@ -149,9 +148,9 @@ The artifact relies on specific versions of Clang and GCC for building and compi
 
 > Please replace the image path below with the actual path in your repository.
 
-```markdown
+
 ![Lout False Positive Example](docs/images/lout-false-positive.png)
-```
+
 
 ### 2. Missing Data Issue
 
