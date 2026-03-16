@@ -108,7 +108,6 @@ By comparing the data in these tables, users can validate the experimental resul
 
 ## Script Execution Flow
 
-> Please replace the image path below with the actual path in your repository.
 
 ![Script Execution Flow](docs/images/flow.png)
 
@@ -145,8 +144,6 @@ The artifact relies on specific versions of Clang and GCC for building and compi
 
 - **Cause**: The inconsistency is due to Lout including a step that prints the current time as part of its output. Since the time is generated dynamically, it may differ between runs, causing a mismatch in the output.
 - **Solution**: You can manually use the `diff` command to compare the outputs while ignoring the time-related sections, and verify correctness by focusing on the functional and data consistency.
-
-> Please replace the image path below with the actual path in your repository.
 
 
 ![Lout False Positive Example](docs/images/lout-false-positive.png)
